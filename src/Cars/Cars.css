@@ -1,0 +1,26 @@
+.Card{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.Card h1{
+    color: #333;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+.car-box{
+    
+    width: 100%;
+    color : white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around   ;
+    flex-wrap: wrap;
+}
