@@ -1,3 +1,4 @@
+import About from './About/About';
 import './App.css';
 import Cars from './Cars/Cars';
 import SingleCar from './Cars/SingleCar';
@@ -24,6 +25,9 @@ function App() {
         <div className='CarContainer'>
           <CarsContainer />
         </div>
+      </div>
+      <div>
+        <About></About>
       </div>
     </div>
   );
